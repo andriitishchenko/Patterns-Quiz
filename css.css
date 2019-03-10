@@ -1,0 +1,41 @@
+* {
+    font-family: Consolas, Menlo, Monaco, Lucida Console, monospace, sans-serif;
+    font-size: 13px;
+}
+
+#quiz {
+    width: 800px;
+    height: 500px;
+    position: relative;
+}
+
+
+#holder {
+    float: left;
+    border: 1px solid lime;
+    width: 400px;
+    min-height: 200px;
+}
+
+#variants {
+    margin-left: 400px;
+}
+
+.box {
+    border: 1px solid blue;
+    min-height: 45px;
+}
+
+.draggable {
+    width: 70px;
+    height: 30px;
+    border: 1px solid red;
+    top: 20px;
+    left: 10px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.hover {
+    border: dotted 5px blue;
+}
